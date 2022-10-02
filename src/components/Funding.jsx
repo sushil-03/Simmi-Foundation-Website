@@ -39,7 +39,9 @@ const Funding = () => {
 ]
   return (
     <div className='bg-[#212529]   px-10  gap-60 py-10'>
-            <p className='font-nato text-5xl font-light p-4 text-center text-[#F48634] py-10'>Current and Upcoming events </p>
+
+            <p className='font-nato text-5xl font-light p-4 text-center text-[#F48634] py-7'>Fundraisers </p>
+            <p className='text-white text-center align-center mb-5'>A little change makes all the difference.</p>
         <div className='flex flex-wrap gap-5 justify-around md:flex-row flex-col'>
         {
             fundingInfo.map((event,key)=>{

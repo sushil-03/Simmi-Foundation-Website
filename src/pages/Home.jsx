@@ -20,23 +20,14 @@ const Home = () => {
                             </p>
                         </div>
 
-                        {/* This will show main navbar */}
                             <Navbar />
-
-                        {/* This will show carousel */}
-                        <Carousel/>
-
-                        {/* Welcome component */}
+                            <Carousel/>
                             <Welcome/>
-
-
-                        {/* Objective Component */}
-                        <Objective/>
-                        <Help/>
-
-        <Events/>
-<Funding/>
-        <Footer/>
+                            <Objective/>
+                            <Help/>
+                            <Events/>
+                            <Funding/>
+                        <Footer/>
         </div>
   );
 }
